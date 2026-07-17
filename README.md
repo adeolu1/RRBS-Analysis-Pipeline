@@ -1,5 +1,5 @@
 # RRBS-Analysis-Pipeline
-This repository contains a pipeline for analysing Reduced Representation Bisulfite Sequencing (RRBS) data. The workflow performs quality control, read trimming, alignment, methylation calling, and downstream analysis of DNA methylation data.  The pipeline is designed to be reproducible and can be adapted for different RRBS datasets.
+This repository contains a pipeline for analysing Reduced Representation Bisulfite Sequencing (RRBS) data. The workflow performs quality control, read trimming, alignment, methylation calling, and downstream analysis of DNA methylation data.  The pipeline is designed to be reproducible and adaptable to different RRBS datasets.
 ## Workflow
 1. `01_methylseq.sh`
 ### Purpose
@@ -10,7 +10,8 @@ This repository contains a pipeline for analysing Reduced Representation Bisulfi
    - Output: methylation calls and cytosine reports...
 ### Usage
 ```bash
-/01_methylseq.sh
+/
+Scripts/01_methylseq.sh
 ```
 
 2. `02_differential_methylation.R`
