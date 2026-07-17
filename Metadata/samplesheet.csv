@@ -1,0 +1,6 @@
+fastq_1,sample,fastq_2
+../WC-3631-1_S1_L001_R1_001.fastq.gz,sample1,../WC-3631-1_S1_L001_R2_001.fastq.gz
+../WC-3631-2_S2_L001_R1_001.fastq.gz,sample2,../WC-3631-2_S2_L001_R2_001.fastq.gz
+../WC-3631-3_S3_L001_R1_001.fastq.gz,sample3,../WC-3631-3_S3_L001_R2_001.fastq.gz
+../WC-3631-4_S4_L001_R1_001.fastq.gz,sample4,../WC-3631-4_S4_L001_R2_001.fastq.gz
+../WC-3631-5_S5_L001_R1_001.fastq.gz,sample5,../WC-3631-5_S5_L001_R2_001.fastq.gz
