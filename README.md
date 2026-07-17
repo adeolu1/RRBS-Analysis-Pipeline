@@ -1,7 +1,7 @@
 # RRBS-Analysis-Pipeline
 This repository contains a pipeline for analysing Reduced Representation Bisulfite Sequencing (RRBS) data. The workflow performs quality control, read trimming, alignment, methylation calling, and downstream analysis of DNA methylation data.  The pipeline is designed to be reproducible and can be adapted for different RRBS datasets.
 ## Workflow
-1. 01_run_methylseq.sh
+1. `01_run_methylseq.sh`
    - Runs the nf-core/methylseq pipeline.
    - Input: FASTQ files listed in `samplesheet.csv`
    - Output: methylation calls and cytosine reports.
