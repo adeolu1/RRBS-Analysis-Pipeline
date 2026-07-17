@@ -11,7 +11,7 @@
 
 ###################################################
 nextflow run nf-core/methylseq \
-    --input samplesheet.csv \
+    --input Metadata/samplesheet.csv \
     --outdir results/methylseq \
     --genome rn6 \
     -profile uppmax \
