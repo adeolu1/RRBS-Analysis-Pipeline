@@ -10,7 +10,6 @@ This repository contains a pipeline for analysing Reduced Representation Bisulfi
    - Output: methylation calls and cytosine reports...
 ### Usage
 ```bash
-/
 Scripts/01_methylseq.sh
 ```
 
