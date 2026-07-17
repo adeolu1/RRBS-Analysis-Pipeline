@@ -6,12 +6,12 @@ This repository contains a pipeline for analysing Reduced Representation Bisulfi
    - Input: FASTQ files listed in `samplesheet.csv`
    - Output: methylation calls and cytosine reports.
      
-2. `03_differential_methylation.R`
+2. `02_differential_methylation.R`
    - Performs differential methylation analysis.
    - Input: annotated methylation data.
    - Output: significant differentially methylated CpGs/regions.
 
-3. `02_annotation.R`
+3. `03_annotation.R`
    - Annotates CpG sites or differentially methylated regions.
    - Input: methylseq output.
    - Output: annotated methylation tables.
