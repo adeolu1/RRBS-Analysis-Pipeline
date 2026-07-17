@@ -25,7 +25,7 @@ Performs differential DNA methylation analysis between experimental groups using
   - Name of the worksheet corresponding to the comparison (e.g., `Female_BBzP`, `Male_BBzP`).
 ### Usage
 ```bash
-Rscript scripts/03_differential_methylation.R \
+Rscript scripts/02_differential_methylation.R \
     results/annotation \
     metadata/sample_sheetFA1.xlsx \
     Female_BBzP
